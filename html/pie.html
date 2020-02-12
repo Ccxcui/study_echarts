@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>饼图</title>
+<!--    引入echarts.js-->
+    <script src="../js/echarts.js"></script>
+</head>
+<body>
+<!--    定义画布-->
+    <div id="main" style="height: 400px; width: 600px"></div>
+    <script type="text/javascript">
+        //进行echrts的初始化，以及定位到画布
+        var mychart = echarts.init(document.getElementById("main"));
+        //配置项和配置数据
+        var option={
+            //标题
+            title:{
+                text:'饼图'
+            },
+            tooltip:{},
+            legend:{
+                data:['毛衣','呢子','衬衫','裤子','袜子']
+            },
+            series:[
+                {
+                    type:'pie',
+                    //半径大小 圆心位置
+                    radius:'55%',
+                    center:['50%','50%'],
+                    data:[
+                        {name:'毛衣',value:335},
+                        {name:'呢子',value:90},
+                        {name:'衬衫',value:450},
+                        {name:'裤子',value:200},
+                        {name:'袜子',value:50},
+                    ],
+                      roseType:'radius'
+                }
+            ]
+        };
+        mychart.setOption(option)
+    </script>
+</body>
+</html>
