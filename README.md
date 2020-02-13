@@ -1,9 +1,9 @@
 # study_echarts
 使用echats绘制 柱形图，饼图，环形图，散点图，百度地图,中国地图散点图,折线图
 
-!(https://github.com/Ccxcui/study_echarts/raw/master/%E7%BB%93%E6%9E%9C/%E5%A4%9A%E4%B8%AA%E6%9F%B1%E5%BD%A2%E5%9B%BE.PNG)
+![](https://github.com/Ccxcui/study_echarts/raw/master/%E7%BB%93%E6%9E%9C/%E5%A4%9A%E4%B8%AA%E6%9F%B1%E5%BD%A2%E5%9B%BE.PNG)
 
-!(https://github.com/Ccxcui/study_echarts/raw/master/%E7%BB%93%E6%9E%9C/%E9%A5%BC%E5%9B%BE.PNG)
+![](https://github.com/Ccxcui/study_echarts/raw/master/%E7%BB%93%E6%9E%9C/%E9%A5%BC%E5%9B%BE.PNG)
 
 !(https://github.com/Ccxcui/study_echarts/raw/master/%E7%BB%93%E6%9E%9C/%E6%8A%98%E7%BA%BF%E5%9B%BE+%E6%9F%B1%E5%BD%A2%E5%9B%BE.PNG)
 
